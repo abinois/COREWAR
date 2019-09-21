@@ -58,12 +58,17 @@ After compilation, our ZORK champion looks like that (in hexadecimal):
 
    0b 68 01 00 0f 00 01 06 64 01 00 00 00 00 01 01 00 00 00 01 09 ff fb
 
-The VM should create a process for each champion that will read the instructions
-and execute them. The last champion who was reported "alive" wins.
+The VM creates a process by champion that reads the instructions and executes them.
+The last champion who was reported "alive" wins.
+Each instruction takes a different number of cycles to be executed
+(from aff that takes only 2 cycles, to lfork that takes 1000). Choose your strat!
+Each process has 16 registers (4 octets) at disposition to stock data.
 Each CYCLE_TO_DIE cycle, the VM checks the number of "live" executed by processes
-and kill thoses who haven't done at least one. CYCLE_TO_DIE is then reduced.
+and kill thoses who haven't done at least one.
+CYCLE_TO_DIE is then reduced by CYCLE_DELTA and the current cycle is reset to 0.
 
-If you understood something, you can check the school Subject.pdf fore more infos.
+If you understood something, congratulation ! 🤝
+You can check the school Subject.pdf fore more infos.
 
 This project was done by abinois, avanhers and ltimsit.
 👌 enjoy:)

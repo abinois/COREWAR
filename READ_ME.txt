@@ -12,8 +12,7 @@ This project is splitted in three parts :
   - The assembler : an executable ./asm that compiles champion files
     into .cor files (written in bytecode, in big endian).
   - The VM : an executable ./corewar that takes .cor files in arguments
-    and make them fight against eachothers
-	in a virutal memory arena (circular buffer).
+    and make them fight against eachothers in a virutal memory arena (circular buffer).
 
 If we take a basic champion like ZORK :
 

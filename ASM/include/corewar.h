@@ -6,7 +6,7 @@
 /*   By: ltimsit- <ltimsit-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/19 18:13:52 by ltimsit-          #+#    #+#             */
-/*   Updated: 2019/09/21 14:50:46 by abinois          ###   ########.fr       */
+/*   Updated: 2019/09/24 12:44:23 by abinois          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,8 +84,6 @@ typedef struct	s_data
 	char		*start;
 	int			curr_line;
 	int			curr_index;
-	char		*chmp_name;
-	char		*chmp_com;
 	bool		name_set;
 	bool		comment_set;
 	char		*mem_stock;
@@ -94,27 +92,6 @@ typedef struct	s_data
 	int			mem_size;
 	int			read_ret;
 }				t_data;
-
-enum			e_op
-{
-	live,
-	ld,
-	st,
-	add,
-	sub,
-	cand,
-	cor,
-	cxor,
-	zjmp,
-	ldi,
-	sti,
-	cfork,
-	lld,
-	lldi,
-	lfork,
-	aff,
-	zero
-};
 
 enum			e_cmd
 {

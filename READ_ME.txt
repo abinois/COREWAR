@@ -74,4 +74,4 @@ This project was done by abinois, avanhers and ltimsit.
 👌 enjoy:)
 
 voila:
-![alt text](https://github.com/abinois/COREWAR/demo/master/Corewar_demo.gif "Corewar demo")
+![alt text](https://github.com/abinois/COREWAR/demo/blob/master/Corewar_demo.gif "Corewar demo")

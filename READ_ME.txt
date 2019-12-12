@@ -73,4 +73,5 @@ You can check the school Subject.pdf fore more infos.
 This project was done by abinois, avanhers and ltimsit.
 👌 enjoy:)
 
-https://github.com/abinois/COREWAR/Corewar_demo.gif
+
+![alt text](https://github.com/abinois/COREWAR/Corewar_demo.gif)

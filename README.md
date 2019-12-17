@@ -73,7 +73,7 @@ You can check the school Subject.pdf fore more infos.
 
 This project was done by abinois, avanhers and ltimsit.
 👌 enjoy:)
-
+</pre>
 voila:
 ![alt text](https://github.com/abinois/COREWAR/blob/master/demo/Corewar_demo.gif "Corewar demo")
-</pre>
+

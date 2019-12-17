@@ -1,3 +1,4 @@
+<pre>
 ---------------------------------------------------------------------
        ______.                                        
       / ____/  ____     _____.  ___   ._.     __   ____ _   _____.
@@ -75,3 +76,4 @@ This project was done by abinois, avanhers and ltimsit.
 
 voila:
 ![alt text](https://github.com/abinois/COREWAR/blob/master/demo/Corewar_demo.gif "Corewar demo")
+</pre>
